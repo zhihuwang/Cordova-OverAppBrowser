@@ -1,38 +1,40 @@
 {
-    "version": "1.1.0",
-    "name": "org.apache.cordova.plugins.overappbrowser",
-    "cordova_name": "Over App Browser",
-    "description": "Render a webview over your cordova UI (you choose the position) ",
-    "license": "MIT",
-     "cordova": {
-      "id": "org.apache.cordova.plugins.overappbrowser",
-      "platforms": [
-        "android",
-		"ios"
-      ]
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zhihuwang/Cordova-OverAppBrowser.git"
-    },
-	"keywords": [
-      "cordova",
-      "overappbrowser",
-      "webview"
-    ],
-    "engines": {
-      "cordovaDependencies": {
-          "<2.0.0": {
-            "cordova": ">=3.5.0"
-          },
-          "2.0.0": {
-            "cordova": ">=6.1.0",
-            "cordova-android": ">=6.1.0"
-          }
+  "version": "1.1.0",
+  "name": "org.apache.cordova.plugins.overappbrowser",
+  "cordova_name": "Over App Browser",
+  "description": "Render a webview over your cordova UI (you choose the position) ",
+  "license": "MIT",
+  "cordova": {
+    "id": "org.apache.cordova.plugins.overappbrowser",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhihuwang/Cordova-OverAppBrowser.git"
+  },
+  "keywords": [
+    "cordova",
+    "overappbrowser",
+    "webview"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "<2.0.0": {
+        "cordova": ">=3.5.0",
+		"cordova-ios": "<5.0.0"
+      },
+      "2.0.0": {
+        "cordova": ">=6.1.0",
+        "cordova-android": ">=6.1.0",
+		"cordova-ios": ">=5.0.0"
       }
-    },
-	"bugs": {
-      "url": "https://github.com/zhihuwang/Cordova-OverAppBrowser/issues"
-    },
-    "homepage": "https://github.com/zhihuwang/Cordova-OverAppBrowser#readme"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/zhihuwang/Cordova-OverAppBrowser/issues"
+  },
+  "homepage": "https://github.com/zhihuwang/Cordova-OverAppBrowser#readme"
 }
